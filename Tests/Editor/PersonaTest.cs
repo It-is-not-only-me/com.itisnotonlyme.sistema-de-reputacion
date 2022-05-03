@@ -7,7 +7,7 @@ using UnityEngine.TestTools;
 public class PersonaTest
 {
     [Test]
-    public void PersonaTestSimplePasses()
+    public void Test01()
     {
         
     }
