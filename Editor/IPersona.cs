@@ -4,7 +4,12 @@ using UnityEngine;
 
 namespace ItIsNotOnlyMe.SistemaDeReputacion
 {
-    public interface Ipersona
+    public interface IPersona
+    {
+
+    }
+
+    public class Persona : IPersona
     {
 
     }
