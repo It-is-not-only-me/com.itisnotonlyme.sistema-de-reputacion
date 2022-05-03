@@ -1,12 +1,13 @@
 {
-    "name": "com.itisnotonlyme.nombre",
+    "name": "com.itisnotonlyme.sistema-de-reputacion",
     "version": "1.0.0",
-    "displayName": "Nombre Lindo",
-    "description": "Descripcion linda",
-    "unity": "2020.3",
+    "displayName": "Sistema de reputacion",
+    "description": "Un sistema que permite cuantificar la reputacion dependiendo de las acciones tomadas",
+    "unity": "2021.3",
     "keywords": [
-      "Key", 
-      "Words"
+      "Reputacion", 
+      "Acciones",
+      "Actividades"
     ],
     "author": {
       "name": "Juan Ignacio Biancuzzo",
