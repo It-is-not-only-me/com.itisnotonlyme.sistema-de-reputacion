@@ -3,6 +3,8 @@
 public class IdentificadorPrueba : IIdentificador
 {
     private static int _contador = 0;
+
+    public int ID => _id;
     private int _id;
 
     public IdentificadorPrueba()
@@ -18,6 +20,6 @@ public class IdentificadorPrueba : IIdentificador
 
     public bool EsIgual(IIdentificador identificador)
     {
-        return GetID() == identificador.GetID();
+        return ID == ((IdentificadorPrueba)identificador).ID;
     }
 }
