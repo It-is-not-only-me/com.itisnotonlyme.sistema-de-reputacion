@@ -65,7 +65,7 @@ public class ObjetivoTest
     }
 
     [Test]
-    public void Test03ObjetivoConActividadDeTargetDiferentesTieneOpinionNula()
+    public void Test04ObjetivoConActividadDeTargetDiferentesTieneOpinionNula()
     {
         ITarget target = new Target(1);
         IAccion accion = new Accion(CrearVector(1));
