@@ -2,11 +2,6 @@
 {
     public interface IActividad
     {
-
-    }
-
-    public class Actividad : IActividad
-    {
-
+        public void Opinion(ITarget target, IAccion accion, ref float valor);
     }
 }
