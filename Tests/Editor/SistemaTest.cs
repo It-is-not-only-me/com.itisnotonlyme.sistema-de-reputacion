@@ -3,23 +3,31 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
+using ItIsNotOnlyMe.SistemaDeReputacion;
 
 public class SistemaTest
 {
-    // A Test behaves as an ordinary method
+    private class EvaluacionPrueba : IEvaluacion
+    {
+        public float Evaluar(IAccion accion)
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+
+    private class AccionPrueba : IAccion
+    {
+
+    }
+
+
     [Test]
     public void SistemaTestSimplePasses()
     {
-        // Use the Assert class to test conditions
-    }
+        IEvaluacion evaluacion;
 
-    // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-    // `yield return null;` to skip a frame.
-    [UnityTest]
-    public IEnumerator SistemaTestWithEnumeratorPasses()
-    {
-        // Use the Assert class to test conditions.
-        // Use yield to skip a frame.
-        yield return null;
+        IAccion accion;
+
+
     }
 }
