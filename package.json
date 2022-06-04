@@ -1,6 +1,6 @@
 {
     "name": "com.itisnotonlyme.sistema-de-reputacion",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "displayName": "Sistema de reputacion",
     "description": "Un sistema que permite cuantificar la reputacion dependiendo de las acciones tomadas",
     "unity": "2021.3",
