@@ -13,7 +13,7 @@ Esta interfaz es la principal para este proyecto, es la que realmente cuantifica
 
 Por ejemplo:
 ---
-```
+```c#
 public class OrientacionPrueba : IOrientacion
 {
     private Vector2 _orientacion;
