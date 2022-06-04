@@ -29,7 +29,7 @@ public class OrientacionPrueba : IOrientacion
         return Vector2.Dot(_orientacion, nuevaOrientacion._orientacion);
     }
 }
-```c
+```
 
 El resto de las interfaces ya tienen una clase asociada, pero la idea es muy simple e intentan dar espacio a la utilizacion de IOrientacion. 
 
