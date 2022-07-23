@@ -8,6 +8,9 @@ Se tiene las 4 interfaces
 
 De las cuales las primeras 3 se tiene clases de ejemplo que deberian funcionar en los casos mas habituales. 
 
+### Diagrama
+![Diagrama de interfaces](Diagrama%20de%20interfaces.png "Diagrama de interfaces")
+
 ## IOrientacion
 Esta interfaz es la principal para este proyecto, es la que realmente cuantifica las relaciones entre acciones. La idea principal para esto es usarlo con vectores de n dimensiones y la cuantificacion siendo un producto punto entre ellos. 
 
@@ -32,4 +35,3 @@ public class OrientacionPrueba : IOrientacion
 ```
 
 El resto de las interfaces ya tienen una clase asociada, pero la idea es muy simple e intentan dar espacio a la utilizacion de IOrientacion. 
-
